@@ -1,0 +1,77 @@
+p.hyperlinks{
+
+    font-size:15px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+
+    margin:auto;
+
+}
+    .tableColor{
+    color:black;
+
+}
+    .tableSpacing{
+        padding-left:25px;
+        padding-right:25px;
+    }
+
+    .border{
+        border:4px red;
+        border-style:groove;
+        background-color:white;
+
+    }
+
+    .Arial{
+        font-family:Arial, Helvetica, sans-serif;
+        color:hotpink;
+    }
+    
+    .Courier{
+        font-family:'Courier New', Courier, monospace;
+        color:pink;
+    }
+
+    .Corsiva{
+        font-family:"Monotype Corsiva";
+        color:lightpink;
+        
+    }
+
+    .theDivs{
+        border: 4px orange;
+        background-color:white;
+        border-style:outset;
+        border-radius:10px;
+
+        text-align:center; 
+        color:black;
+
+        margin:5px;
+    }
+
+    #main{
+        height: 300px;
+        width: 100%;
+        display: flex;
+    }
+    #left{
+        width:33%;
+    }
+    #middle{
+        width:33%;
+    }
+    #right{
+        width:33%;
+    }
+    .images{
+        width:100%;
+        height:60%;
+    }
+    .footer{
+        font-size: 20px;
+        text-shadow: -5px -5px 10px red;
+        color:black;
+        text-align:right;
+    }
