@@ -1,0 +1,101 @@
+html, body{
+    width:100%;
+    height:100%;
+    display:inline-block;
+}
+
+.header{
+    color:black;
+    
+}
+
+.header a{
+    
+    padding:20px 15px 20px;
+    text-decoration: none;
+    color:white;
+
+}
+
+/* .header a:hover{
+    color:blue;
+    padding: 22px 120px;
+    font-size:22px;
+    
+    cursor:pointer;
+    background-color:black;
+    transition:1s;
+    
+} */
+
+.topNav{
+    display:flex;
+    
+    background-color:grey;
+    width:100%;
+    height:80px
+}
+
+.topNav > *:nth-child(1){
+	flex: 1 1 23%;
+    margin:10px;
+    text-align:center;
+    
+   
+	
+}
+.topNav > *:nth-child(2){
+	flex: 1 1 23%;
+    margin:10px;
+    text-align:center;
+    
+    
+	
+}
+
+.topNav > *:nth-child(3){
+	flex: 1 1 23%;
+    margin:10px;
+    text-align:center;
+    
+    
+	
+}
+
+.topNav > *:nth-child(4){
+	flex: 1 1 23%;
+    margin:10px;
+    text-align:center;
+    
+    
+	
+}
+
+.divS{
+
+}
+
+.divS:hover a{
+    color:black;
+    background-color:white;
+    cursor:pointer;
+    padding: 22px 3vw;
+    transition:1s;
+}
+
+.bodyDiv{
+    width:100%;
+    height:700px;
+    background-color:grey;
+}
+
+.child{
+    position:relative;
+    width:25ch;
+    font-size:35px;
+    left:10%;
+    top:30%;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    
+}
